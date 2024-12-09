@@ -107,7 +107,7 @@ const ListarTarefa = () => {
                 <TableBody>
                   {tarefas.map((row, indice) => (
                     <TableRow
-                      key={indice}  // Aqui você usa o índice corretamente
+                      key={indice}  
                       sx={{
                         '&:last-child td, &:last-child th': { border: 0 },
                         backgroundColor: '#d0f0c0', // Cor verde clara
